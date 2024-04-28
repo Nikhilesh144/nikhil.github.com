@@ -380,30 +380,36 @@ grid-gap: 1rem;
 
 }
 .pro{
-    color: black;
-    /* border:  1px solid bl; */
+    padding: 8vw 8vw 0vw 8vw;
+    text-align: center;
+}
+.p{
+    text-align: center;
+    background-color: #5c5cbb;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin: 15px 7px;
+}.p img{
+    background-position: center;
+    background-size: cover;
+    width: 140px;
+    height: 40%;
+    border-radius: 05px;
+}
+.p p{
+    margin-top: 1px;
+}
+
+.p-box{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    grid-gap:1fr;
-    align-items: center;
-   
-   
-   
-
-
+    grid-gap: 1rem;    
+    border-radius: 50px;
 }
-.team{
-    @media (max-width:1200px) {
 
-        /* background: aqua; */
-        /* margin-right: 100px; */
-        /* margin-left: 120px; */
-        margin-top: 5px;
-        padding-left: 40px; 
-    }
-    
 
-}
 
 .profileC{
     /* display: flex; */
@@ -421,7 +427,7 @@ grid-gap: 1rem;
 
     
     }
-    margin: 5px 15px;
+    
     /* border :1px solid black; */
     border-radius: 5px;
     background:linear-gradient(rgb(152, 61, 238),rgb(87, 86, 86));
@@ -432,28 +438,22 @@ grid-gap: 1rem;
 
     
 }
-.profileC img{
-    height: 170px;
-    /* width: 160px; */
-    margin-top: 60px;
-   
 
-}
-.profileC p{
+.p p{
 
     margin-top: 1px;
 }
-.profileC a{
+.p a{
 
     /* margin-top: 1px; */
     color: #070000;
     transition: ease-in;
 }
-.profileC a:hover{
+.p a:hover{
 
     color: rgb(252, 247, 247);
 }
-.profileC h5{
+.p h5{
     margin-top: 10px;
     
     
