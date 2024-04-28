@@ -209,7 +209,7 @@ nav>img{
     }
    
 }
-@media (max-width:470px) {
+@media (min-width:400px) {
     .home h2{
         color: azure;
         font-size: 30px;
@@ -229,6 +229,8 @@ nav>img{
 
     
 }
+
+
 /* features */
 .feature{
   
