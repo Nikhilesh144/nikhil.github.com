@@ -458,10 +458,10 @@ grid-gap: 1rem;
     
     
 }
-@media (max-width:420px) {
-    .profileC{
+@media (max-width:490px) {
+    .p{
         margin-right: 50px;
-        margin-left: 60px;
+        margin-left: 50px;
     }
    
 
