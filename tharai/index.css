@@ -132,6 +132,7 @@ nav>img{
         margin-left: -10px;
         font-size: 20px;
     }
+    
     .sidebar{
 
         
@@ -146,6 +147,7 @@ nav>img{
       }
     
 }
+
 
 
     
@@ -183,6 +185,29 @@ nav>img{
 }
 .col{
     background-color: aliceblue;
+}
+/* responsive home page */
+@media (max-width:600px){
+    .home{
+        height: 100%;
+        width: 100%;
+        background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .home h2{
+        color: azure;
+        font-size: 40px;
+        font-weight: 200rem;
+        width: 80%;
+        letter-spacing: 1px;
+
+    }
+   
 }
 /* features */
 .feature{
