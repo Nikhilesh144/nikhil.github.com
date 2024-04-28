@@ -209,6 +209,26 @@ nav>img{
     }
    
 }
+@media (max-width:470px) {
+    .home h2{
+        color: azure;
+        font-size: 30px;
+        font-weight: 200rem;
+        width: 80%;
+        letter-spacing: 1px;
+
+    }
+    .home p{
+        color: azure;
+        font-size: 0.9rem;
+        width: 90%;
+        line-height: 25px;
+    
+    }
+
+
+    
+}
 /* features */
 .feature{
   
@@ -223,7 +243,7 @@ nav>img{
     
    
     text-align: start;
-    background: rgb(255, 255, 255);
+    background: #5c5cbb;
     box-shadow:2px 2px 10px rgba(0, 0,0,0.15);
     width: 100%
     
@@ -398,6 +418,15 @@ grid-gap: 1rem;
 .profileC h5{
     margin-top: 10px;
     
+    
+}
+@media (max-width:470px) {
+    .profileC{
+        margin-right: 50px;
+        margin-left: 80px;
+    }
+   
+
     
 }
 
