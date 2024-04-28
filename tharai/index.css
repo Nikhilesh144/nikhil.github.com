@@ -118,6 +118,11 @@ nav>img{
 .sidebar  li a.active{
     color: aqua;
 }
+@media (max-width:420px){
+    .navigation{
+        margin-right: 20px;
+    }
+}
 @media (min-width:800px){
     .hide{
         display: none;
@@ -342,12 +347,45 @@ grid-gap: 1rem;
     border: 1px solid rgba(84,40,241);
     outline: none;
 }
+/* responsive register */
+@media (max-width:420px){
+    .message h1{
+        color:#eae7f0;
+        font-size: 20px;
+        width: 100%;
+        
+    }
+    .register{
+        padding: 6vw 8vw 6vw 8vw;
+        background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)   ),url("img/signup.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 110%;
+        height: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .form{
+        background: #fff;
+        border-radius: 8px;
+        display: flex;
+        width: 250px;
+        flex-direction: column;
+        padding:40px;
+        box-shadow: 0px 8px 32px 0 rgba(31,38,135,0.37);
+    
+    }
+
+}
 .pro{
     color: black;
     /* border:  1px solid bl; */
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     grid-gap:1fr;
+    align-items: center;
    
    
    
@@ -386,7 +424,7 @@ grid-gap: 1rem;
     margin: 5px 15px;
     /* border :1px solid black; */
     border-radius: 5px;
-    background:linear-gradient(rgb(39, 39, 39),rgb(105, 105, 105));
+    background:linear-gradient(rgb(152, 61, 238),rgb(87, 86, 86));
     box-shadow:2px 2px 10px rgba(0, 0,0,0.15);
     flex-wrap: wrap;
     flex-flow: column;
@@ -420,10 +458,10 @@ grid-gap: 1rem;
     
     
 }
-@media (max-width:470px) {
+@media (max-width:420px) {
     .profileC{
         margin-right: 50px;
-        margin-left: 20px;
+        margin-left: 60px;
     }
    
 
