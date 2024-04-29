@@ -38,7 +38,7 @@ nav>img{
     padding-left: 16px;
     padding-top: 10px;
     letter-spacing: 0.5px;
-    margin-left: -440px;
+    margin-left: -200px;
     
 
     
@@ -118,7 +118,7 @@ nav>img{
 .sidebar  li a.active{
     color: aqua;
 }
-@media (max-width:420px){
+@media (max-width:490px){
     .navigation{
         margin-right: 20px;
     }
@@ -133,6 +133,7 @@ nav>img{
     .hideOnMobile{
         display: none;
     }
+   
     .title{
         margin-left: -10px;
         font-size: 20px;
@@ -583,10 +584,10 @@ footer input{
     width: 60%;
 }
 .about-text{
-    width: 40%;
+    width: 190%;
     padding: 60px;
 }
-.about-text h4{
+.about-text h6{
     color: #062344;
     padding-bottom: 15px;
     width: 100%;
@@ -627,6 +628,110 @@ footer input{
     height: auto;
 
 }
+/* responsive about */   
+@media( max-width:490px) {
+    .establish{
+        text-align: center;
+        padding: 1vw ;
+        
+    }
+    .trust-img{
+        margin-top: 60px;
+        width: 380px;
+        display: flex;
+  
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 10px;
+    
+    
+    
+    }
+    .trust-img img{
+        width: 90px;
+        height: auto;
+    
+    }
+    .about-container{
+        display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        align-items: center;
+        padding: 1vw 2vw 2vw 8vw;
+        width: 400px;
+        margin-top: 1px;
+    
+    }
+    .about-img img{
+        height: 400px;
+
+        width: 300px;
+        margin-top: -1000px;
+        display: inline;
+        
+    }
+    .about-text h6{
+        color: #071627;
+        /* position: absolute; */
+        padding-bottom: 15px;
+        width: 100%;
+        font-size: medium;      
+    }
+    .about-img{
+        width: 60%;
+    }
+    .about-text{
+        width: 100%;
+        padding: 60px;
+    }
+    .about-text h4{
+        color: #062344;
+        padding-bottom: 15px;
+        width: 100%;
+        
+    }
+    .about-text p{
+        color: #686F7A;
+         padding-bottom: 15px;
+        font-weight: 300;
+    }
+    .about-fe{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        justify-content: space-between;
+        align-items: flex-start;
+    
+    }
+    .about-fe img{
+        width: 50px;
+        background-size: cover;
+        background-position: center;
+    
+    }  
+    
+    .about-home{
+        background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)   ),url("img/abc.jpg");
+        height:400px ;
+        width: 100%;
+        padding-top: 600px;
+        padding-right: 90px;
+        background-repeat: no-repeat;
+        border-radius: 40px;
+        background-position: center;
+        background-size: contain;
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
+
+    
+    
+
+
 /* COURSES PAGE */
 
 .coursess{

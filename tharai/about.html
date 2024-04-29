@@ -7,28 +7,28 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Tharai Edutech</title>
+    <title >Tharai Edutech</title>
 </head>
 <body>
     <!-- navigation bar  -->
-    <ul class="sidebar">
+    <ul class="sidebar" style="" >
         <li onclick="hide()"><a href="#" style="margin-left: 22px;" ><i class="fa-solid fa-xmark " ></i> </a></li>
         <li><a href="index.html">Home</a></li>
         <li><a class="active" href="about.html"> About</a></li>
         <li><a href="courses.html">Courses</a></li>
         <li><a href="contact.html">Contact</a></li>    
     </ul>
-    <nav  class="nav-bar"  >
-        <img src="img/loogo.png" alt="" ><h2 class="title">Tharai Edutech</h2>
+    <nav  class="anav-bar"  >
+        <img src="img/loogo.png" alt="" ><h2 class="title" >Tharai Edutech</h2>
 
-        <div class="navigation" >
+        <div style="" class="navigation" >
           
         <ul >
             <li class="hideOnMobile"><a href="index.html">Home</a></li>
             <li class="hideOnMobile"><a class="active" href="about.html"> About</a></li>
             <li class="hideOnMobile"><a href="courses.html">Courses</a></li>
             <li class="hideOnMobile"><a href="contact.html">Contact</a></li>   
-            <li  onclick=show()><a href="#" class="hide"><i class="fa-solid fa-2x fa-bars" ></i></a></li> 
+            <li  onclick=show()><a href="#" class="hide"  ><i class="fa-solid fa-2x fa-bars" ></i></a></li> 
         </ul>
     </div>
     </nav>
@@ -37,9 +37,10 @@
         
         </section>
         <section class="about-container">
+            <img src="img/a.png" alt=""  style="width: 100%;">
             <div class="about-img">
-                <!-- <img src="img/a.png" alt="image"> -->
-                <img src="img/a.png" alt="">
+                <!-- <img src="img/a.png" alt="image">  -->
+              
 
             </div>
             <div class="about-text">
@@ -78,7 +79,7 @@
                 <img src="img/trust (3).png" alt="">
                 <img src="img/trust (4).png" alt="">
                 <img src="img/trust (5).png" alt="">
-                <img src="img/trust (6).png" alt="">
+                <!-- <img src="img/trust (6).png" alt=""> -->
 
             </div>
 
@@ -127,7 +128,15 @@
         </div>
         
         </footer>
-        <script src="index.js">
+        <script >
+            function show(){
+                const s=document.querySelector('.sidebar')
+                s.style.display='flex';
+            }
+            function hide(){
+                const s=document.querySelector('.sidebar')
+                s.style.display='none';
+            }
    
         </script>
 </body>
