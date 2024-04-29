@@ -349,7 +349,7 @@ grid-gap: 1rem;
     outline: none;
 }
 /* responsive register */
-@media (max-width:420px){
+@media (max-width:490px){
     .message h1{
         color:#eae7f0;
         font-size: 20px;
@@ -361,7 +361,7 @@ grid-gap: 1rem;
         background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)   ),url("img/signup.jpg");
         background-size: cover;
         background-position: center;
-        width: 110%;
+        width: 100%;
         height: 100%;
         margin-top: 15px;
         display: flex;
@@ -483,7 +483,7 @@ grid-gap: 1rem;
 
 
 footer{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 8vw;
     background-color: #757373;
     display: flex;
@@ -908,7 +908,7 @@ footer input{
 .maps{
     width: 100%;
     height: 70vh;
-    margin-bottom: 8vw;
+    /* margin-bottom: 8vw; */
 
 
 }
@@ -916,4 +916,30 @@ footer input{
     width: 100%;
     height: 100%;
     border-radius: 4px;
+}
+@media(max-width:490px){
+    .form-row{
+         display: block; 
+        justify-content: space-between;
+        width: 100%;
+    }
+    .form-row input{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 3px;
+        border: none;
+        background: #fff;
+        color: #7e7c87;
+        padding: 20px 30px;
+        margin-bottom: 20px;
+    }
+    .formm{
+        width: 400px;
+        background: #dbd7e7;
+        padding: 40px;
+        border-radius: 10px;
+        margin-left: 30px;
+    }
+    
 }
