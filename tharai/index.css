@@ -29,7 +29,7 @@ nav>img{
     
   height: 70px;
   width: 100px;
-  margin-left: 10px;
+  margin-left: 5px;
     cursor: pointer;
 }
 .title{
@@ -125,6 +125,7 @@ nav>img{
     .navigation{
         margin-right: 20px;
     }
+   
 }
 @media (min-width:800px){
     .hide{
