@@ -33,19 +33,41 @@ nav>img{
   margin-left: 5px;
     cursor: pointer;
 }
+.tag-line{
+    /* padding-right: 100px; */
+    margin-right: 100px;
+    
+    padding-bottom: 10px;
+    padding-left: 30px;
+
+}
 .title{
     font-weight: bold;
     color: rgb(48, 163, 87);
     font-family:inter;
     font-size: 35px;
     /* align-items: start; */
-    padding-left: 16px;
+    padding-left: 100px;
     padding-top: 10px;
     letter-spacing: 0.5px;
     margin-left: -200px;
     
+    
 
     
+}
+@media(max-width:900px){
+    .title{
+        font-size: 10px;
+        
+        width: 300px;
+        padding-left: 40px;
+    }
+    .tag-line{
+        width: 200px;
+        padding-left: 5px;
+    }
+
 }
 .navigation>ul{
     
@@ -110,7 +132,7 @@ nav>img{
 .sidebar li a {
     width: 100%;
     text-decoration: none;
-    color: black;
+    color: rgb(48, 163, 87);
     margin-top: 28px;
     font-family: sans-serif;
     font-size: 19px;
@@ -118,10 +140,10 @@ nav>img{
     transition: 0.3s ease-in;
 }
 .sidebar  li a:hover{
-    color: rgb(31, 243, 225);
+    color: black
 }
 .sidebar  li a.active{
-    color: aqua;
+    color:black
 }
 @media (max-width:490px){
     .navigation{
