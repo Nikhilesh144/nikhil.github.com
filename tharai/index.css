@@ -690,27 +690,35 @@ footer input{
 }
 /* about page */
 .about-home{
-    background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)   ),url("img/abc.jpg");
-    height: 20vh;
-    width: 100%;
-    padding-top: 600px;
-    
-    border-radius: 40px;
-    background-position: center;
-    background-size: cover;
-    flex-direction: column;
-    text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-.about-home h2{
-        color: #fff;
-        font-size: 2.2rem;
-        letter-spacing: 1px;
+.about-image img{
+    height: 500px;
+    padding-top: 90px;
+    width: 700px;
+    
+}
+.about-intro{
+    background-color: rgb(110, 190, 153);
+    margin-top: 90px;
+    width: 100%;
+}
+.about-intro p{
+    max-width: 500px;
+    padding-left: 30px;
+    font-weight: 800;
+    
+}
+.about-intro h1{
+    max-width: 500px;
+    padding-top: 30px;
+    padding-left: 29px;
+    color: #ffffff;
+    
+}
 
 
-}
 .about-container{
     display: flex;
     align-items: center;
@@ -718,9 +726,18 @@ footer input{
     margin-top: 1px;
 
 }
-.about-img{
-    width: 60%;
+.about-container img{
+    width: 400px;
+    border-radius: 3px;
 }
+.mission{
+    padding-left: 550px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+
+
 .about-text{
     width: 190%;
     padding: 60px;
@@ -734,20 +751,37 @@ footer input{
 .about-text p{
     color: #686F7A;
      padding-bottom: 15px;
-    font-weight: 300;
+    font-weight: 600;
+    max-width: 600px;
 }
-.about-fe{
+.about-tharai{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.about-tharai p{
+    max-width: 900px;
+    font-weight: 600;
+}
+.about-tharai h2{
+    font-weight:700 ;
+}
+.about-vision img{
+    height: 400px;
+} 
+.about-bullet img{
+    height: 40px;
+    
+}
+.about-bullet{
+    display: flex;
 
 }
-.about-fe img{
-    width: 50px;
-    background-size: cover;
-    background-position: center;
-
-}  
+.about-bullet p{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 4px;
+}
 .establish{
     text-align: center;
     padding: 8vw ;
