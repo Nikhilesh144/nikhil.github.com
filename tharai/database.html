@@ -1,0 +1,276 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Noto+Sans+HK:wght@100..900&display=swap" rel="stylesheet">
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+      />
+      <link
+        href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+        rel="stylesheet"
+      />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <title>Tharai EduTech</title>
+    </head>
+<body>
+    <ul class="sidebar">
+        <li onclick="hide()"><a href="#" style="margin-left: 22px;" ><i class="fa-solid fa-xmark " ></i> </a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html"> About Us</a></li>
+        <li><a class="active" href=""></a>
+            <div class="dropdown mt-1 " >
+                <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </button>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item" href="courses.html">All Courses</a></li>
+                  <li><a class="dropdown-item" href="fullstack.html">Full Stack Courses</a></li>
+                  <li><a class="dropdown-item" href="data.html">Data Courses</a></li>
+                  <li><a class="dropdown-item" href="programming.html">Programming Courses</a></li>
+                  <li><a class="dropdown-item" href="database.html">Database Courses</a></li>
+                  <li><a class="dropdown-item" href="certificate.html">Certificate Courses</a></li>
+
+
+
+                </ul>
+              </div>
+        </li>
+        <li><a  href="contact.html">Contact Us</a></li>    
+    </ul>
+    <nav  class="anav-bar"  >
+        <img src="img/logo-green.svg" alt="" >   <h2 class="title" ">Tharai EduTech
+            <P class="tag-line" style="font-size: 15px;">   Empower Your Future: Code Your Way to Success!</P>
+            </h2>
+
+        <div style="" class="navigation" >
+          
+        <ul >
+            <li class="hideOnMobile"><a  href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a  href="about.html"> About Us</a></li>
+            <li class="hideOnMobile" style="display: flex;"><a class="active" href=""></a>
+                <div class="dropdown mt-1 " id="Menu">
+                    <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Courses
+                    </button>
+                    <ul class="dropdown-menu" >
+                      <li><a class="dropdown-item" href="courses.html">All Courses</a></li>
+                      <li><a class="dropdown-item" href="fullstack.html">Full Stack Courses</a></li>
+                      <li><a class="dropdown-item" href="data.html">Data Courses</a></li>
+                      <li><a class="dropdown-item" href="programming.html">Programming Courses</a></li>
+                      <li><a class="dropdown-item" href="database.html">Database Courses</a></li>
+                      <li><a class="dropdown-item" href="certificate.html">Certificate Courses</a></li>
+
+
+
+                    </ul>
+                  </div>
+                
+            
+            </li>
+            <li class="hideOnMobile"><a href="contact.html">Contact Us</a></li>   
+            <li  onclick=show()><a href="#" class="hide"  ><i class="fa-solid fa-2x fa-bars" ></i></a></li> 
+        </ul>
+    </div>
+    </nav>
+
+    <section id="courses">
+        <h1 data-aos="fade-up" data-aos-duration="1000"> DATABASE LANGUAGES </h1>
+        <p data-aos="fade-down" data-aos-duration="1000"> Data Base Handling Courses</p>
+         <div class="course-box">
+            <div data-aos="fade-right" data-aos-duration="1000" class="course" >
+                <img src="img/SQL.jpg" alt="" >
+                <div class="details">
+                    <span>Updated 12/03/2024</span>
+                    <h6>MY SQL</h6>
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(145)</span>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="course" >
+                <img src="img/Elas.jpg" alt="">
+                <div class="details">
+                    <span>Updated 12/03/2024</span>
+                    <h6>ELASTIC SEARCH  </h6>
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(145)</span>
+                </div>  
+            </div>
+            <div data-aos="fade-left" data-aos-duration="1000" class="course" >
+                <img src="img/odb.jpg" alt="">
+                <div class="details">
+                    <span>Updated 12/03/2024</span>
+                    <h6>ORACLE DB </h6>
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(145)</span>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="1000" class="course" >
+                <img src="img/mssql.jpg.crdownload" alt="">
+                <div class="details">
+                    <span>Updated 12/03/2024</span>
+                    <h6>MS SQL SERVER </h6>
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(145)</span>
+                </div>
+            </div>
+            <!-- <div data-aos="fade-up" data-aos-duration="1000" class="course" >
+                <img src="img/busiAN.jpg" alt="">
+                <div class="details">
+                    <span>Updated 12/03/2024</span>
+                    <h6>GOLAND </h6>
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(145)</span>
+                </div>
+            </div> -->
+            <div data-aos="fade-left" data-aos-duration="1000" class="course" >
+                <img src="img/maria.jpg" alt="">
+                <div class="details">
+                    <span>Updated 12/03/2024</span>
+                    <h6>MARIA DB </h6>
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(145)</span>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="1000" class="course" >
+                <img src="img/mongo.png" alt="">
+                <div class="details">
+                    <span>Updated 12/03/2024</span>
+                    <h6>MONGO DB </h6>
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(145)</span>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="course" >
+                <img src="img/cass.png" alt="">
+                <div class="details">
+                    <span>Updated 12/03/2024</span>
+                    <h6>CASSANDRA </h6>
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(145)</span>
+                </div>
+            </div>
+         </div>
+    </section>>
+
+
+
+
+
+
+
+
+
+    <footer class="foot" style="margin-top: 20px;">
+        <div class="footer-col">
+        <h3> Top products</h3>
+        <li>Manage Reputation</li>
+        <li>power Tools</li>
+        <li>Managed Websites</li>
+        <li>Jobs</li>
+        <li>Marketing service</li>
+    </div>
+    <div class="footer-col">
+        <h3> Top products</h3>
+        <li>Manage Reputation</li>
+        <li>power Tools</li>
+        <li>Managed Websites</li>
+        <li>Jobs</li>
+        <li>Marketing service</li>
+    </div>
+    <div class="footer-col">
+        <h3> Quick Links</h3>
+        <li>Manage Reputation</li>
+        <li>power Tools</li>
+        <li>Managed Websites</li>
+        <li>Jobs</li>
+        <li>Marketing service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Submit your enquiry</h3>
+        <p>We will get back to you as soon as possible</p>
+        <div class="subscribe">
+            <input type="text" name="" id="" placeholder="Your Email">
+            <a href="#" class="btn btn-primary">Subscribe</a>
+        </div>
+        
+    </div>
+    <div class="copy">
+        <p>copyright &copy2024 All rights reserved  </p>
+        <div class="links">
+             <a href="" >    <i class="fa-brands fa-linkedin fa-2x" "></i></a>
+             <a href=""><i class="fa-brands fa-instagram fa-2x"></i></a>
+             <a href=""><i class="fa-brands fa-facebook fa-2x"></i></a>
+               </div>
+    </div>
+    
+    </footer>
+    <script src="index.js">
+
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js">
+
+    </script>
+    <script>
+        AOS.init();
+      </script>
+    
+</body>
+</html>

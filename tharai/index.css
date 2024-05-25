@@ -38,7 +38,8 @@ nav>img{
     margin-right: 100px;
     
     padding-bottom: 10px;
-    padding-left: 30px;
+    padding-left: 5px;
+    font-size: 40px;
 
 }
 .title{
@@ -47,10 +48,13 @@ nav>img{
     font-family:inter;
     font-size: 35px;
     /* align-items: start; */
-    padding-left: 100px;
+    padding-left: 0px;
     padding-top: 10px;
     letter-spacing: 0.5px;
-    margin-left: -200px;
+    /* margin-left: -100px; */
+    margin-right: -90px;
+    
+    margin-left: -380px;
     
     
 
@@ -159,6 +163,9 @@ nav>img{
 }
 @media (max-width:800px) {
     .hideOnMobile{
+        display: none;
+    }
+    #menu{
         display: none;
     }
    
@@ -908,8 +915,8 @@ footer input{
       
 }
 
-.contact{
-    background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)   ),url("img/b2.jpg");
+/* .contact{
+    background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)   ),url("img/contactCover-1.webp");
     height: 60%;
     width: 100%;
     background-position: center;
@@ -919,15 +926,40 @@ footer input{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
-.contact h2{
+ */
+
+
+/* .contact h2{
     color: azure;
     font-size: 50px;
     font-weight: 200rem;
     width: 60%;
     letter-spacing: 1px;
+} */
+.contact-intro{
+    padding-top: 100px;
+    display: flex;
+}
+.contact-intro img{
+    height: 500px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+    margin-left: 200px;
+    margin-right: 20px;
+    border: #070000 solid;
+    border-radius: 10px;
+    
+}
+.contact-intro p{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    max-width: 700px;
+    margin-left:20px ;
+    padding: 100px 100px 100px 100px;
+    /* border: #062344 solid; */
+    font-size: 25px;
 }
 .con{
     padding: 8vw;
@@ -937,7 +969,7 @@ footer input{
 
 }
 .getin h2{
-    color: #2c234d;
+    color: rgb(48, 163, 87);;
     /* background-color: #2c234d; */
     font-size: 30px;
     font-weight: 800;
@@ -955,9 +987,9 @@ footer input{
         border-bottom: 1px solid #e5e4ed;   
 }
 .getin h3{
-    color: #2c234d;
+    color:rgb(48, 163, 87);;
     /* background-color: #2c234d; */
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 600;
     line-height: .8;
     margin-bottom: 15px;
@@ -969,7 +1001,7 @@ footer input{
 .get-det i{
     font-size: 16px;
     line-height: 22px;
-    color: #5838fc;
+    color: rgb(48, 163, 87);;
     margin-right: 20px;
 }
 .get-det p{
@@ -992,14 +1024,14 @@ footer input{
 }
 .formm h4{
     font-size: 24px;
-    color: #2c234d;
+    color: #000000;
     line-height: 30px;
     margin-bottom: 8px;
 
 }
 .formm p{
     
-    color: #5d32fa;
+    color: rgb(48, 163, 87);
     /* background-color: #2c234d; */
    
     line-height: 24px;
