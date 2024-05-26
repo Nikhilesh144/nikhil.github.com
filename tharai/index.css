@@ -822,6 +822,9 @@ footer input{
     height: auto;
 
 }
+.miss{
+    display: none;
+}
 /* responsive about */   
 @media( max-width:490px) {
     .establish{
@@ -831,12 +834,13 @@ footer input{
     }
     .trust-img{
         margin-top: 60px;
-        width: 380px;
+        width: fit-content;
         display: flex;
-  
+        /* border: #000000 solid; */
         justify-content: space-between;
         align-items: center;
         margin-right: 10px;
+        padding: 1px;
     
     
     
@@ -846,15 +850,8 @@ footer input{
         height: auto;
     
     }
-    .about-container{
-        display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-        align-items: center;
-        padding: 1vw 2vw 2vw 8vw;
-        width: 400px;
-        margin-top: 1px;
+     
     
-    }
     .about-img img{
         height: 400px;
 
@@ -881,12 +878,14 @@ footer input{
         color: #062344;
         padding-bottom: 15px;
         width: 100%;
+        /* border: #000000 solid; */
         
     }
     .about-text p{
         color: #686F7A;
          padding-bottom: 15px;
         font-weight: 300;
+        /* border: #34b63f solid; */
     }
     .about-fe{
         display: grid;
@@ -901,23 +900,100 @@ footer input{
         background-position: center;
     
     }  
-    
     .about-home{
-        background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)   ),url("img/abc.jpg");
-        height:400px ;
-        width: 100%;
-        padding-top: 600px;
-        padding-right: 90px;
-        background-repeat: no-repeat;
-        border-radius: 40px;
-        background-position: center;
-        background-size: contain;
-        flex-direction: column;
-        text-align: center;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        border: #d1bebe;
     }
+    
+
+.about-intro{
+    
+    width: 490px;
+    /* padding-right: 400px; */
+    /* border: #000000 solid; */
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* display: none; */
+    
+}
+.about-intro p{
+    width: 400px;
+    max-width: 400px;
+    /* border: #000000 solid; */
+    padding-right: 10px;
+}
+.about-intro h1{
+    font-size: 20px;
+    max-width: 400px;
+    width: 400px;
+    
+    /* border: #000000 solid; */
+    /* margin-bottom: 10px; */
+    padding: 10px 20px 10px 30px;
+}
+.about-image{
+    display: none;
+    width: 100px;
+    height: 300px;
+    border: #fc7b7b solid;
+}
+.about-image img{
+    height: 300px;
+    width: 200px;
+}
+.mission{
+    font-size: 20px;
+    padding-right: 500px;
+    width: fit-content;
+    display: none;
+    
+    
+}
+.about-vision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* display: none; */
+}
+.vision-cover{
+    height: 10px;
+    width:400px;
+}
+.miss{
+    font-weight: 700;
+    display: inline;
+}
+
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    /* border: #000000 solid; */
+
+
+}
+.about-container img {
+    height: 250px;
+    width: 250px;
+
+    /* border: #f34848 solid; */
+}
+
+.about-bullet img{
+    height: 30px;
+}
+.about-bullet p {
+    font-size: 15px;
+    padding: 5px 5px;
+}
+.about-tharai{
+    padding: 10px;
+    /* border: #000000 solid; */
+}
 
     
 }
@@ -1030,7 +1106,7 @@ footer input{
         display: flex;
         width: fit-content;
         flex-direction: column-reverse;
-        border: #062344 solid;
+        
         align-items: center;
     }
     .contact-intro p span{
@@ -1039,18 +1115,19 @@ footer input{
     }
 
     .contact-intro img{
-        height: 150px;
+        height: 250px;
         width: 50%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
        /* padding-left: 30px; */
        margin-right: 200px;
         
-        border: #070000 solid;
+        /* border: #070000 solid; */
         border-radius: 10px;
+        
         
     }
     .contact-intro p{
-        border: #000000 solid;
+        /* border: #000000 solid; */
         max-width: 470px;
         font-size: medium;
       
