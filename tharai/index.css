@@ -1099,6 +1099,7 @@ footer input{
       
 }
 /* course Details */
+
 #course-inner
 {
     display: flex;
@@ -1106,10 +1107,11 @@ footer input{
     justify-content: space-between;
     padding: 8vw;
     
+    
 
 
 }
-#course-inner.course-overView{
+.course-overView{
     width: 70%;
 }
 .course--image{
@@ -1136,9 +1138,16 @@ footer input{
 .course-name h2{
     color: #29303B;
 }
-.star{
-    margin: 1px 0;
-
+.learn ul li i{
+    margin: 10px;
+}
+.learn ul li span{
+    color: #000000;
+    
+}
+.enroll{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 20px;
 }
 
 /* .contact{
@@ -1364,7 +1373,7 @@ footer input{
     .formm{
         width: 400px;
         background: #dbd7e7;
-        padding: 40px;
+         padding: 40px;
         border-radius: 10px;
         margin-left: 30px;
     }

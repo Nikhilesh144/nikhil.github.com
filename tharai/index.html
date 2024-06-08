@@ -97,8 +97,8 @@
  <section id="courses">
     <h1 data-aos="fade-down" data-aos-duration="1000"> POPULAR COURSES </h1>
     <p data-aos="fade-up" data-aos-duration="1000">Forge Ahead in Your Career with Courses Aligned to Industry Needs.</p>
-     <div   class="course-box">
-        <div data-aos="fade-right" data-aos-duration="1000" class="course "data-bs-toggle="modal" data-bs-target="#DSML" >
+     <div   class="course-box" >
+        <div data-aos="fade-right" data-aos-duration="1000" class="course "  onclick=urlParams(0)>
             <img src="img/DSML2.jpg" alt="" >
             <div class="details">
                 <span>Updated 12/03/2024</span>
@@ -113,7 +113,7 @@
                 <span>(145)</span>
             </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" class="course " data-bs-toggle="modal" data-bs-target="#AIML" >
+        <div data-aos="fade-up" data-aos-duration="1000" class="course " onclick="urlParams(1)" >
             <img src="img/MLAI.jpg" alt="">
             <div class="details">
                 <span>Updated 12/03/2024</span>
@@ -128,8 +128,8 @@
                 <span>(145)</span>
             </div>
         </div>
-        <div data-aos="fade-left" data-aos-duration="1000" class="course" >
-            <img src="img/DATAE2.jpg" data-bs-toggle="modal" data-bs-target="#DTER" alt="">
+        <div data-aos="fade-left" data-aos-duration="1000" class="course" onclick="urlParams(2)" >
+            <img src="img/DATAE2.jpg" >
             <div class="details">
                 <span>Updated 12/03/2024</span>
                 <h6>DATA ENGINEERING </h6>
@@ -143,8 +143,8 @@
                 <span>(145)</span>
             </div>
         </div>
-        <div data-aos="fade-right" data-aos-duration="1000" class="course" >
-            <img src="img/dataan.jpg" data-bs-toggle="modal" data-bs-target="#DATS" alt="">
+        <div data-aos="fade-right" data-aos-duration="1000" class="course" onclick="urlParams(3)" >
+            <img src="img/dataan.jpg" >
             <div class="details">
                 <span>Updated 12/03/2024</span>
                 <h6>DATA ANALYTICS </h6>
@@ -158,8 +158,8 @@
                 <span>(145)</span>
             </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" class="course" >
-            <img src="img/busiAN.jpg" data-bs-toggle="modal" data-bs-target="#BSAS" alt="">
+        <div data-aos="fade-up" data-aos-duration="1000" class="course" onclick="urlParams(4)" >
+            <img src="img/busiAN.jpg" alt="">
             <div class="details">
                 <span>Updated 12/03/2024</span>
                 <h6>BUSINESS ANALYTICS </h6>
@@ -173,8 +173,8 @@
                 <span>(145)</span>
             </div>
         </div>
-        <div data-aos="fade-left" data-aos-duration="1000" class="course" >
-            <img src="img/genai.jpg" data-bs-toggle="modal" data-bs-target="#GNAI" alt="">
+        <div data-aos="fade-left" data-aos-duration="1000" class="course" onclick="urlParams(5)">
+            <img src="img/genai.jpg"  alt="">
             <div class="details">
                 <span>Updated 12/03/2024</span>
                 <h6>GENERATIVE AI </h6>
@@ -187,6 +187,36 @@
                 <i class="fas fa-star"></i>
                 <span>(145)</span>
 
+            </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="1000" class="course" onclick="urlParams(6)" >
+            <img src="img/bc2.jpg" alt="">
+            <div class="details">
+                <span>Updated 12/03/2024</span>
+                <h6>FOUNDATIONS OF BLOCK CHAIN </h6>
+            </div>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(145)</span>
+            </div>
+        </div>
+        <div data-aos="fade-down" data-aos-duration="1000" class="course" onclick="urlParams(7)">
+            <img src="img/dsa.jpg" alt="">
+            <div class="details">
+                <span>Updated 12/03/2024</span>
+                <h6>DATA STRUCTURES AND ALGORITHMS </h6>
+            </div>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(145)</span>
             </div>
         </div>
      </div>
@@ -682,6 +712,21 @@
 </script>
 <script>
     AOS.init();
+  </script>
+  <script>
+    
+    function urlParams(value){
+        const url="http://127.0.0.1:5500/tharai/courseDetails.html?"+"key"+"="+value;
+        
+        window.location.href=url
+
+
+        
+    
+
+     
+
+    }
   </script>
 
 </body>

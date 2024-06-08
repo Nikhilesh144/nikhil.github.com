@@ -9,7 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Noto+Sans+HK:wght@100..900&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+        
 
+        
+     
+    
     <title >Tharai EduTech</title>
 </head>
 <body  >
@@ -48,7 +53,7 @@
         <div class="navigation" >
           
         <ul >
-            <li class="hideOnMobile"><a class="active" href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a class="" href="index.html">Home</a></li>
             <li class="hideOnMobile"><a  href="about.html"> About Us</a></li>
             <li class="hideOnMobile" style="display: flex;"><a  href=""></a>
                 <div class="dropdown mt-1 " id="Menu">
@@ -80,12 +85,12 @@
     </marquee>
     <section id="course-inner">
         <div class="course-overView">
-            <img class="course--image" src="img/c1.jpg" alt="">
+            <img class="course--image" id="course-img"  alt="">
             <div class="course-head">
                 <div class="course-name">
-                    <h2>DATA SCIENCE AND MACHINE LEARNING</h2>
+                    <h2 id="course--title"></h2>
                 </div>
-                <div class="star-icon">
+                <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -93,17 +98,52 @@
                     <i class="fas fa-star"></i>
 
                 </div>
-                <p>"Unlock the power of data and shape the future with our Data Science and Machine Learning course."</p>
+                <p id="c-tag"></p>
             </div>
+           <h3>Course overview</h3> 
+           <p  id="course--overview">
+
+           </p>
+           <hr>
+           <h3 >Course Objectives</h3>
+           <ul id="course--obj">
+          
+             </ul>
+             <hr>
+             <h3>What you'll learn</h3>
+             <div class="learn">
+                <ul id="learnings" >
+                   
+                </ul>
+             </div>
+          
+           
+        
 
         </div>
+        <div class="enroll">
+            <h3>This Course Includes</h3>
+            <p><i class="fa-solid fa-video"></i> 48 hours Videos</p>
+            <p><i class="fa-regular fa-newspaper"></i> 56 Articles</p>
+            <p><i class="fa-solid fa-cloud-arrow-down"></i> Downlodable resources</p>
+            <p><i class="fa-solid fa-infinity"></i> Full time Access</p>
+            <p><i class="fa-solid fa-mobile-screen"></i> Access on Mobile</p>
+            <p><i class="fa-solid fa-paperclip"></i> Assignments</p>
+            <p><i class="fa-solid fa-trophy"></i>Certificate of Completion</p>
+            <div>
+                <button class="btn btn-outline-danger mx-5" href=""> <b>Enroll Course</b> </button>
+            </div>
+    
+         </div>
+
+        
 
 
-
+        
 
     </section>
 
-        
+   
 
 
 
@@ -169,5 +209,16 @@
     <script>
       AOS.init();
     </script>
+     <script   src="courseDetails.js">
+     </script>
+     <script>
+        const link=window.location.href;
+        const params=link.split("=");
+        const idd=params[1];
+     </script>
+     <script>
+        hello(idd)
+       </script>
+  
 </body>
 </html>
