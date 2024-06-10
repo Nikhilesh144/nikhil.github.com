@@ -94,7 +94,7 @@
             FULL STACK DEVELOPMENT COURSES </h1>
         <!-- <p data-aos="fade-down" data-aos-duration="1000">Web Development Courses</p> -->
          <div class="course-box">
-            <div data-aos="fade-right" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-right" data-aos-duration="1000" class="course" onclick=urlParams(8)>
                 <img src="img/java.jpg" alt="" >
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -109,7 +109,7 @@
                     <span>(145)</span>
                 </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-up" data-aos-duration="1000" class="course" onclick=urlParams(9) >
                 <img src="img/py.jpg" alt="">
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -139,7 +139,7 @@
                     <span>(145)</span>
                 </div>
             </div>
-            <div data-aos="fade-right" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-right" data-aos-duration="1000" class="course" onclick=urlParams(10) >
                 <img src="img/MERN.jpg" alt="">
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -154,7 +154,7 @@
                     <span>(145)</span>
                 </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-up" data-aos-duration="1000" class="course" onclick=urlParams(11) >
                 <img src="img/MEAN.jpg" alt="">
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -169,7 +169,7 @@
                     <span>(145)</span>
                 </div>
             </div>
-            <div data-aos="fade-left" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-left" data-aos-duration="1000" class="course" onclick=urlParams(12) >
                 <img src="img/UI.jpg" alt="">
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -247,6 +247,14 @@
     </script>
     <script>
         AOS.init();
+      </script>
+      <script>
+    
+        function urlParams(value){
+            const url="https://nikhilesh144.github.io/nikhil.github.com/tharai/courseDetails.html?"+"key"+"="+value;
+            
+            window.location.href=url
+        }
       </script>
     
 </body>

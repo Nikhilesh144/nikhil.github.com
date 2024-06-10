@@ -478,7 +478,7 @@ let Data = [{
 },
 {
     "id": 18,
-    "image": "img/golang.jpg",
+    "image": "img/golang.png",
     "title": "GO PROGRAMMING",
     "tag": "In a Go Programming course, students learn the fundamentals of the Go programming language, concurrent programming, and application development.",
     "overView": "This course provides comprehensive training in Go programming language, covering basic syntax, data types, control structures, functions, and concurrent programming features. Students will learn how to develop efficient and scalable applications using Go's powerful standard library and concurrency primitives.",
@@ -579,7 +579,7 @@ let Data = [{
 },
 {
     "id": 22,
-    "image": "img/sql.jpg",
+    "image": "img/SQL.jpg",
     "title": "SQL DATABASE MANAGEMENT",
     "tag": "In an SQL Database Management course, students learn the fundamentals of Structured Query Language (SQL), database design, and management.",
     "overView": "This course provides comprehensive training in SQL, covering basic to advanced concepts of database management. Students will learn how to design, create, query, and manage relational databases using SQL. They will also explore topics such as data normalization, indexing, transactions, and database security.",
