@@ -1111,6 +1111,8 @@ footer input{
 
 
 }
+
+
 .course-overView{
     width: 70%;
 }
@@ -1145,10 +1147,43 @@ footer input{
     color: #000000;
     
 }
+.enroll-mobile{
+    display: none;
+}
+@media (max-width:900px){
+    .enroll {
+        display: none;
+    }
+    #course-inner
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8vw;
+}
+.course-name h2{
+    font-size: 30px;
+
+
+}
+.course-name{
+    max-width: 450px;
+}
+.course-overView{
+    width: 100%;
+}
+.enroll-mobile{
+    display: block;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 20px 20px 90px;
+    
+}
+}
 .enroll{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 20px 20px;
 }
+
 
 /* .contact{
     background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)   ),url("img/contactCover-1.webp");
