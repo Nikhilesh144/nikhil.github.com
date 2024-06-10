@@ -93,7 +93,7 @@
         <h1 data-aos="fade-up" data-aos-duration="1000"> DATABASE LANGUAGES </h1>
         <!-- <p data-aos="fade-down" data-aos-duration="1000"> Data Base Handling Courses</p> -->
          <div class="course-box">
-            <div data-aos="fade-right" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-right" data-aos-duration="1000" class="course"  onclick=urlParams(24)  >
                 <img src="img/mysql2.png" alt="" >
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -123,7 +123,7 @@
                     <span>(145)</span>
                 </div>  
             </div>< -->
-            <div data-aos="fade-left" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-left" data-aos-duration="1000" class="course" onclick=urlParams(25)  >
                 <img src="img/odb.jpg" alt="">
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -138,7 +138,7 @@
                     <span>(145)</span>
                 </div>
             </div>
-            <div data-aos="fade-right" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-right" data-aos-duration="1000" class="course" onclick=urlParams(26)  >
                 <img src="img/mssql.jpg.crdownload" alt="">
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -168,7 +168,7 @@
                     <span>(145)</span>
                 </div>
             </div> -->
-            <div data-aos="fade-left" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-left" data-aos-duration="1000" class="course" onclick=urlParams(27)  >
                 <img src="img/maria.jpg" alt="">
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -183,7 +183,7 @@
                     <span>(145)</span>
                 </div>
             </div>
-            <div data-aos="fade-right" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-right" data-aos-duration="1000" class="course" onclick=urlParams(28) >
                 <img src="img/mongo.png" alt="">
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -198,7 +198,7 @@
                     <span>(145)</span>
                 </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-up" data-aos-duration="1000" class="course" onclick=urlParams(29) >
                 <img src="img/cass.png" alt="">
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -276,6 +276,14 @@
     </script>
     <script>
         AOS.init();
+      </script>
+      <script>
+    
+        function urlParams(value){
+            const url="https://nikhilesh144.github.io/nikhil.github.com/tharai/courseDetails.html?"+"key"+"="+value;
+            
+            window.location.href=url
+        }
       </script>
     
 </body>

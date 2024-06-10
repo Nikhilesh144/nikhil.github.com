@@ -88,7 +88,7 @@
         <h1 data-aos="fade-up" data-aos-duration="1000"> CERTIFICATIONS </h1>
         <p data-aos="fade-down" data-aos-duration="1000">Cretifications to Boost your Profile</p>
          <div class="course-box">
-            <div data-aos="fade-right" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-right" data-aos-duration="1000" class="course"  onclick=urlParams(30)>
                 <img src="img/oscp.jpg" alt="" >
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -103,7 +103,7 @@
                     <span>(145)</span>
                 </div>
             </div>
-            <div data-aos="fade-left" data-aos-duration="1000" class="course" >
+            <div data-aos="fade-left" data-aos-duration="1000" class="course"  onclick=urlParams(31)>
                 <img src="img/mscd.png" alt="">
                 <div class="details">
                     <span>Updated 12/03/2024</span>
@@ -181,6 +181,14 @@
     </script>
     <script>
         AOS.init();
+      </script>
+      <script>
+    
+        function urlParams(value){
+            const url="https://nikhilesh144.github.io/nikhil.github.com/tharai/courseDetails.html?"+"key"+"="+value;
+            
+            window.location.href=url
+        }
       </script>
     
 </body>
